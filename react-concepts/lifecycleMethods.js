@@ -33,7 +33,6 @@
  *   after this component will unmount
  */
 
-
 /**
  * How to stop components from rerendering ?
  * -----------------------------------------
@@ -46,4 +45,30 @@
  * automatically does what we are doing in shouldComponentUpdate.
  * - React.memo
  * it uses memoization , return the same output for a given repeated input
+ */
+
+/**
+ *       Component LifeCycle
+ *      ----------------------
+ *
+ *   constructor
+ *     - good place for one time setup
+ *
+ *   render
+ *     - avoid doing anything besides returning jsx
+ *
+ * content is visible on screen post render
+ *
+ *   componentDidMount
+ *     - good place to do data loading
+ *
+ * sit and wait for updates
+ *
+ *   componentDidUpdate
+ *     - good place to do more data loading when state/props change
+ *
+ * sit and wait until the component is no longer shown
+ *
+ *   componentDidUnMount
+ *     - good place for clean up
  */

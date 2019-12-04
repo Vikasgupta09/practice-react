@@ -1,4 +1,16 @@
 /**
+ * Redux
+ * -----
+ * - State management library
+ * - makes creating complex app easier
+ * - not reqd to create a react app
+ * - not explicity designed to use with react
+ * 
+ * Redux Cycle
+ * Action Creator -> Action -> Dispatch -> Reducers -> State
+ * 
+ */
+/**
  * What are alternatives to redux ?
  * --------------------------------
  * - mobX
